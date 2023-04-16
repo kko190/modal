@@ -1,0 +1,34 @@
+.black-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  padding: 30px;
+  /* 애니메이션 효과 */
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.show-modal {
+  /* 애니메이션 효과 */
+  visibility: visible;
+  opacity: 1;
+}
+.white-bg {
+  position: relative;
+  background: white;
+
+  border-radius: 5px;
+  padding: 30px;
+}
+#login {
+  border-radius: 5px;
+}
+.main-bg {
+  padding: 100px 20px;
+  background: lightgray;
+}
+.navbar-brand {
+  color: rgb(115, 4, 5);
+}
